@@ -1,7 +1,7 @@
 import { Controller, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { GasStationService } from '../../../application/gas-station/appservices/gas-station.service';
-import { CreateGasStationDto } from '../../../application/gas-station/dto/create-gas-station.dto';
-import { UpdateGasStationDto } from '../../../application/gas-station/dto/update-gas-station.dto';
+import { GasStationService } from '../../../../application/gas-station/appservices/gas-station.service';
+import { CreateGasStationDto } from '../dto/create-gas-station.dto';
+import { UpdateGasStationDto } from '../dto/update-gas-station.dto';
 
 @Controller('gas-station')
 export class GasStationController {

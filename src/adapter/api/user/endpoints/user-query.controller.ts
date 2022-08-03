@@ -1,5 +1,5 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { UserService } from '../../../application/user/appservices/user.service';
+import { UserService } from '../../../../application/user/appservices/user.service';
 
 @Controller('user')
 export class UserQueryController {

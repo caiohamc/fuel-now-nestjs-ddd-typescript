@@ -1,5 +1,5 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { GasStationService } from '../../../application/gas-station/appservices/gas-station.service';
+import { GasStationService } from '../../../../application/gas-station/appservices/gas-station.service';
 
 @Controller('gas-station')
 export class GasStationQueryController {

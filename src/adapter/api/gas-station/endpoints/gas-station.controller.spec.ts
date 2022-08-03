@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { GasStationController } from './gas-station.controller';
-import { GasStationService } from '../../../application/gas-station/appservices/gas-station.service';
+import { GasStationService } from '../../../../application/gas-station/appservices/gas-station.service';
 
 describe('GasStationController', () => {
   let controller: GasStationController;

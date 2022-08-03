@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { CreateGasStationDto } from '../dto/create-gas-station.dto';
-import { UpdateGasStationDto } from '../dto/update-gas-station.dto';
+import { CreateGasStationDto } from '../../../adapter/api/gas-station/dto/create-gas-station.dto';
+import { UpdateGasStationDto } from '../../../adapter/api/gas-station/dto/update-gas-station.dto';
 
 @Injectable()
 export class GasStationService {
